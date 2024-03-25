@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+</head>
+<body>
+<h1>{h1}</h1>
+<form method="post">
+    <div class="input">
+        <label for="login">Логин</label>
+        <input id="login" name="userLogin" type="text" placeholder="Логин">
+    </div>
+    <div class="input">
+        <label for="password">Пароль</label>
+        <input id="password" name="userPassword" type="text" placeholder="Пароль">
+    </div>
+    <button class="js-send">Отправить</button>
+</form>
+<script type="module" src="/src/app/auth.js"></script>
+</body>
+</html>
